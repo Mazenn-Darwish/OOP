@@ -1,0 +1,3 @@
+Q8)used in securing variables and methods from outside interference.
+Q9) Last line Test.id = 45;  id is not a static variable 
+correct is : this.id=45;
