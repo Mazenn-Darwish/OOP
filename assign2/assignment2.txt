@@ -1,0 +1,16 @@
+Q6)a) A's no-arg constructor is invoked because constructor A is not defined in constructor B
+
+b)public B(int x){super(x)}
+
+Q7)
+Errors in :
+Line 5: radius = this.radius;
+Line 20 : public B(double radius, double length){
+Line 21 : super(radius);
+Line 22 : length = this.length;
+Line 27 : return super.getArea() * length;
+
+
+Q8)overridden
+
+Q9)yes because there will be a syntax error
