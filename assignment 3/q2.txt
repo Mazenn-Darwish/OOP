@@ -1,0 +1,13 @@
+public static Integer mx(ArrayList<Integer> list) {
+    if (list == null || list.size() == 0) {
+        return null;
+    }
+    Integer mx = list.get(0);
+    for (int i = 1; i < list.size(); i++) {
+        Integer current = list.get(i);
+        if (current > mx) {
+            mx = current;
+        }
+    }
+    return mx;
+}
